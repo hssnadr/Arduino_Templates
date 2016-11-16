@@ -1,5 +1,7 @@
 # Serial communication from MaxMSP to Arduino
-
+  
+I based this template on this Chris Vecchio course: http://www.noisemantra.com/Physical%20Computing/arduino-MaxMSP%20communications%2011.pdf  
+  
 This template enables to send data from MaxMSP to Arduino through serial port. More than just sending data, this template includes
 routing function between data. This way you can more easily send specific data.  
 Each message contains:
