@@ -25,8 +25,10 @@ void getSerialMsg() {
   
   //First thing is to check if some messages have been sent
   if (Serial.available() > 0) {
+    // GET MESSAGE ADDRESS
     msgAdr = (char)Serial.read(); // The first incoming byte correspond to the address message, it's supposed to be a char
-    
+
+    // GET MESSAGE VALUE
     index = 0;
     do
     {
